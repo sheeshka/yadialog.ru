@@ -11,4 +11,3 @@ RewriteRule ^(.*)$ /public/$1
 
 RewriteCond %{HTTP_HOST} ^(www.)?yadialog.ru$
 RewriteRule ^(/)?$ public/index.php [L]
-#коммент to` hfp
