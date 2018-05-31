@@ -22,3 +22,7 @@ Route::get('/mindmap', function () {
 Route::get('/contacts', function () {
     return view('welcome');
 });
+
+Route::get('/lp', function () {
+    return view('lp');
+});
