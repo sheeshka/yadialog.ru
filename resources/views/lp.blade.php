@@ -42,8 +42,7 @@
 
 
 <!-- header-->
-@include('layouts.header1')
-@include('layouts.header2')
+
 <!-- end header-->
 
 <!-- Intro start-->
