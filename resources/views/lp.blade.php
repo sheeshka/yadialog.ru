@@ -14,12 +14,13 @@
 
     <!-- Fontfaces CSS-->
     <link href="css/font-face.css" rel="stylesheet" media="all">
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link href="css/font-awesome.min.css" rel="stylesheet" media="all">
     <link href="vendor/linearicons-free/css/linearicons-free.css" rel="stylesheet" media="all">
     <link href="vendor/elegant-icons/css/elegant-icons.css" rel="stylesheet" media="all">
 
     <!-- Bootstrap CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
 
     <!-- Vendor CSS-->
     <link href="vendor/animate.css/animate.min.css" rel="stylesheet" media="all">
