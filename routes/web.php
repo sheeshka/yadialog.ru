@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/page', function () {
+Route::get('/mindmap', function () {
     return view('welcome');
 });
 
