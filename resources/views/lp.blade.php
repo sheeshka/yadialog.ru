@@ -12,30 +12,9 @@
     <!-- Title Page-->
     <title>Homepage - HTML5 Templates</title>
 
-    <!-- Fontfaces CSS-->
-    <link href="css/font-face.css" rel="stylesheet" media="all">
-    <link href="css/font-awesome.min.css" rel="stylesheet" media="all">
-    <link href="vendor/linearicons-free/css/linearicons-free.css" rel="stylesheet" media="all">
-    <link href="vendor/elegant-icons/css/elegant-icons.css" rel="stylesheet" media="all">
 
     <!-- Bootstrap CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-
-
-    <!-- Vendor CSS-->
-    <link href="vendor/animate.css/animate.min.css" rel="stylesheet" media="all">
-    <link href="vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
-    <link href="vendor/slick/slick.css" rel="stylesheet" media="all">
-    <link href="vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
-
-    <!-- Main CSS-->
-    <link href="css/theme.css" rel="stylesheet" media="all">
-
-    <!--Favicons-->
-    <link rel="shortcut icon" href="favicon.png">
-    <link rel="apple-touch-icon" href="apple-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
 </head>
 
 <body class="animsition page-wrapper">
