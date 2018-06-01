@@ -6,20 +6,19 @@
 <meta name="keywords" content="Карта ума своими руками"/>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
-<link rel="icon" href="favicon.png" type="image/x-icon" />
 
 <head>
 
     <link rel="stylesheet" href="mindmap.css">
     <link rel="stylesheet" href="fontello/css/fontello.css">
-    <link rel="stylesheet" type="text/css" href="contextmenu/src/jquery.contextMenu.css"/>
+    <link rel="stylesheet" type="text/css" href="js/contextmenu/src/jquery.contextMenu.css"/>
 
     <script src="js/jquery-1.10.1.min.js"></script>
     <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
     <script src="js/jquery.jsPlumb-1.4.1-all.js"></script>
     <script src="mindmap.js"></script>
-    <script src="contextmenu/src/jquery.contextMenu.js"></script>
-    <script src="contextmenu/src/jquery.ui.position.js"></script>
+    <script src="js/contextmenu/src/jquery.contextMenu.js"></script>
+    <script src="js/contextmenu/src/jquery.ui.position.js"></script>
     <script src="js/ydn.db-jquery-0.7.5.js"></script>
 
 
