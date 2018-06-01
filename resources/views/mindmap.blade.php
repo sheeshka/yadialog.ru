@@ -33,6 +33,7 @@
     &nbsp;&nbsp;
     <i id="collapse_all" class="icon-minus-circle" title="Свернуть все узлы"></i>
     <i id="expand_all" class="icon-plus-circle" title="Развернуть все узлы"></i>
+    <i id="sh_save" class="icon-upload" title="сохранить"></i>
 </div>
 
 <div id="mindmap_content">
