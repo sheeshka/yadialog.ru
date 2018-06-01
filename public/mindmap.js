@@ -43,7 +43,7 @@ var API_4_MINDMAP = function(){  //singleton - при многократном �
 		 	 }
 
 		 	 this.jsLoadAllFromDB = function() { //загружаем весь массив из базы данных браузера или из массива
-			 	 var d=new $.Deferred(); //объект позволяющий работать асинхронно
+                 var d=new $.Deferred(); //объект позволяющий работать асинхронно
 
 		 	 	 my_all_data = {}; //обнуляем данные
 	    		 db.values("mindmap_db",null,99999999).done(function(records) {
@@ -304,13 +304,13 @@ var API_4_MINDMAP = function(){  //singleton - при многократном �
 
 			 	 var font_size = 14; //шрифт по умолчанию
 			 	 $("#zoom_in").on("click", function(){ //кнопка увеличения масштаба
-			 	 	font_size += 1;
+			 	 	font_size += 3;
 			 	 	$("#mindmap").css("font-size", font_size+"px");
 			 	 	onResize();
 			 	 	return false;
 			 	 });
 			 	 $("#zoom_out").on("click", function(){ //кнопка уменьшения масштаба
-			 	 	font_size -= 1;
+			 	 	font_size -= 3;
 			 	 	$("#mindmap").css("font-size", font_size+"px");
 			 	 	onResize();
 			 	 	return false;
@@ -327,7 +327,11 @@ var API_4_MINDMAP = function(){  //singleton - при многократном �
 			 	 	onResize();
 			 	 	return false;
 			 	 });
-			 	 
+                 $("#sh_save").on("click", function(){ //кнопка cj[hfytybz rfhns
+                     $("#mindmap").css("font-size", font_size+"px");
+                     onResize();
+                     return false;
+                 });
 
 		 	 } //jsRegAllKeys
 		   	 	

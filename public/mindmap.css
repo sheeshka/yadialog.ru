@@ -109,8 +109,8 @@ body, html {
 
 .collapse {
 	position: absolute;
-	right: -0.35em;
-	bottom:-0.35em;	
+	right: -1.75em;
+	bottom:-0.75em;
 	border: 1px solid #888;
 	border-radius: 1em;
 	height: 0.6em;
@@ -127,7 +127,7 @@ body, html {
 .collapse:before {
 	content: "\2d";
 	font-family: fontello;
-	font-size: 0.6em;
+	font-size: 1.5em;
 	color: #888;
 	margin-left: 0.19em;
 	margin-top: -0.085em;
