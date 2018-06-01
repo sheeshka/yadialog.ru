@@ -18,11 +18,3 @@ Route::get('/', function () {
 Route::get('/mindmap', function () {
     return view('welcome');
 });
-
-Route::get('/contacts', function () {
-    return view('welcome');
-});
-
-Route::get('/lp', function () {
-    return view('lp');
-});
