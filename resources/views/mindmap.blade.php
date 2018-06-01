@@ -1,95 +1,50 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ru" class="" style="">
 
-        <title>Laravel</title>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<meta charset="utf-8">
+<meta name="keywords" content="Карта ума своими руками"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+<link rel="icon" href="favicon.png" type="image/x-icon" />
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+<head>
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
+    <link rel="stylesheet" href="mindmap.css">
+    <link rel="stylesheet" href="fontello/css/fontello.css">
+    <link rel="stylesheet" type="text/css" href="contextmenu/src/jquery.contextMenu.css"/>
 
-            .full-height {
-                height: 100vh;
-            }
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="js/jquery.jsPlumb-1.4.1-all.js"></script>
+    <script src="mindmap.js"></script>
+    <script src="contextmenu/src/jquery.contextMenu.js"></script>
+    <script src="contextmenu/src/jquery.ui.position.js"></script>
+    <script src="js/ydn.db-jquery-0.7.5.js"></script>
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
 
-            .position-ref {
-                position: relative;
-            }
+    <title>Карта ума своими руками</title>
+</head>
 
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
+<body onload="jsDoFirst();" onresize="onResize()">
 
-            .content {
-                text-align: center;
-            }
+<div id="mindmap_header">
+    <i id="zoom_out" class="icon-zoom-out" title="Уменьшить карту"></i>
+    <i id="zoom_in" class="icon-zoom-in" title="Увеличить карту"></i>
+    &nbsp;&nbsp;
+    <i id="collapse_all" class="icon-minus-circle" title="Свернуть все узлы"></i>
+    <i id="expand_all" class="icon-plus-circle" title="Развернуть все узлы"></i>
+</div>
 
-            .title {
-                font-size: 84px;
-            }
+<div id="mindmap_content">
+    <div id="mindmap">
+    </div>
+</div>
 
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
+<div id="mindmap_footer">
+</div>
 
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @if (Auth::check())
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ url('/login') }}">Login</a>
-                        <a href="{{ url('/register') }}">Register</a>
-                    @endif
-                </div>
-            @endif
 
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
+</body>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-            </div>
-        </div>
-    </body>
 </html>

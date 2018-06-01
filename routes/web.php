@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('/mindmap', function () {
-    return view('welcome');
+    return view('mindmap');
 });
 
 Route::get('/landos', function () {
