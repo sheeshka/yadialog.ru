@@ -22,3 +22,15 @@ Route::get('/mindmap', function () {
 Route::get('/landos', function () {
     return view('landos');
 });
+
+Route::get('/contacts', function () {
+    return view('contacts');
+});
+
+Route::get('/story', function () {
+    return view('story');
+});
+
+Route::get('/portfolio', function () {
+    return view('portfolio');
+});
