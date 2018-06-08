@@ -38,6 +38,7 @@
 </head>
 <body>
 <div class="container-fluid">
+/*----------------- section 1  ------------------*/
     <div id="section1" class="col-12 bg">
         <div class="container">
             <div class="row align-items-center navbarr">
@@ -74,12 +75,14 @@
             </div>
         </div>
     </div>
+/*----------------- section 2  ------------------*/
     <ul class="nav nav-tabs" role="tablist" id="myTab">
         <li class="active col-lg row"><a href="#home" role="tab" data-toggle="tab" class="col rounded-top" id="s2tab1">Навыки Алисы</a></li>
         <li class="col-lg row"><a href="#profile" role="tab"  class="col rounded-top" data-toggle="tab" id="s2tab2">Telegram Бот </a></li>
         <li class="col-lg row"><a href="#messages" role="tab " class="col rounded-top" data-toggle="tab" id="s2tab3">Бот vk</a></li>
     </ul>
     <div class="tab-content">
+/*----------------- tab 1  ------------------*/
         <div class="tab-pane active" id="home"><div id="section2" class="col-12 bg">
 
                 <div class="container">
@@ -118,6 +121,7 @@
                     </div>
                 </div>
             </div></div>
+/*----------------- tab2  ------------------*/
         <div class="tab-pane" id="profile"><div id="section2" class="col-12 bg">
 
                 <div class="container">
@@ -156,6 +160,7 @@
                     </div>
                 </div>
             </div></div>
+/*----------------- tab3  ------------------*/
         <div class="tab-pane" id="messages"><div id="section2" class="col-12 bg">
 
                 <div class="container">
@@ -200,44 +205,8 @@
             $('#myTab a:last').tab ('show')
         })
     </script>
-    <div id="section2" class="col-12 bg">
 
-        <div class="container">
-            <div class="row align-items-center navbarr">
-                <div class="col-10 offset-1">
-                    <h2>Telegram бот – современный способ взаимодействия с клиентом. </h2>
-                    <div class="s2line">
-                    </div>
-                    <div class="s2pt">
-                        <p>Telegram бот – современный способ взаимодействия с клиентом.</p>
-                        <p>современный способ взаимодействия с клиентом</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-2 offset-1">
-                    <div id="blok1">
-
-                    </div>
-                </div>
-                <div class="col-lg-3 offset-1">
-                    <div id="blok2">
-
-                    </div>
-                </div>
-                <div class="col-lg-3 offset-1">
-                    <div id="blok3">
-
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div id="gif1" class="col-lg-10 offset-1" >
-                    <img src="public/images/Classroom_for_consumer_launch.gif" alt="Работа навыков Алисы. Яндекс">
-                </div>
-            </div>
-        </div>
-    </div>
+/*----------------- section 3  ------------------*/
     <div id="section3" class="col-12 bg">
         <div class="container">
             <div class="row">
@@ -272,6 +241,7 @@
             </div>
         </div>
     </div>
+/*----------------- section 4  ------------------*/
     <div id="section4" class="col-12 bg">
         <div class="container">
             <div class="row">
@@ -307,6 +277,7 @@
             </div>
         </div>
     </div>
+/*----------------- section 5  ------------------*/
     <div id="section5" class="col-12 bg">
         <div class="container">
             <div class="row">
