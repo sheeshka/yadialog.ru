@@ -78,6 +78,73 @@
     </div>
     <div id="section2" class="col-12 bg">
         <div class="container">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="http://placehold.it/1200x400/16a085/ffffff&text=About Us">
+                        <div class="carousel-caption">
+                            <h3>
+                                Headline</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem
+                                ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                        </div>
+                    </div>
+                    <!-- End Item -->
+                    <div class="item">
+                        <img src="http://placehold.it/1200x400/e67e22/ffffff&text=Projects">
+                        <div class="carousel-caption">
+                            <h3>
+                                Headline</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem
+                                ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                        </div>
+                    </div>
+                    <!-- End Item -->
+                    <div class="item">
+                        <img src="http://placehold.it/1200x400/2980b9/ffffff&text=Portfolio">
+                        <div class="carousel-caption">
+                            <h3>
+                                Headline</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem
+                                ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                        </div>
+                    </div>
+                    <!-- End Item -->
+                    <div class="item">
+                        <img src="http://placehold.it/1200x400/8e44ad/ffffff&text=Services">
+                        <div class="carousel-caption">
+                            <h3>
+                                Headline</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem
+                                ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                        </div>
+                    </div>
+                    <!-- End Item -->
+                </div>
+                <!-- End Carousel Inner -->
+                <ul class="nav nav-pills nav-justified">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"><a href="#">About<small>Lorem
+                                ipsum dolor sit</small></a></li>
+                    <li data-target="#myCarousel" data-slide-to="1"><a href="#">Projects<small>Lorem ipsum
+                                dolor sit</small></a></li>
+                    <li data-target="#myCarousel" data-slide-to="2"><a href="#">Portfolio<small>Lorem ipsum
+                                dolor sit</small></a></li>
+                    <li data-target="#myCarousel" data-slide-to="3"><a href="#">Services<small>Lorem ipsum
+                                dolor sit</small></a></li>
+                </ul>
+            </div>
+            <!-- End Carousel -->
+        </div>
+        <div class="container">
             <div class="row align-items-center navbarr">
                 <div class="col-10 offset-1">
                     <h2>Telegram бот – современный способ взаимодействия с клиентом. </h2>
@@ -374,5 +441,6 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script src="public/js/slid.js"></script>
 <body>
 <html>
