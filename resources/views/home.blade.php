@@ -66,10 +66,12 @@
             <div class="row">
                 <div class="col-lg-4"></div>
                 <div class="col-lg-4">
+                    <a href="/mindmap">
                     <div id="botton">
                         <p id="tbotton">Начать работу</p>
                         <div id="lbotton"></div>
                     </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -106,7 +108,7 @@
             </div>
             <div class="row">
                 <div id="gif1" class="col-lg-10 offset-1" >
-
+                    <img src="public/images/Classroom_for_consumer_launch.gif" alt="Работа навыков Алисы. Яндекс">
                 </div>
             </div>
         </div>
