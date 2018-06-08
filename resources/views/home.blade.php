@@ -75,14 +75,14 @@
             </div>
         </div>
     </div>
-/*----------------- section 2  ------------------*/
+<!----------------- section 2  ------------------>
     <ul class="nav nav-tabs" role="tablist" id="myTab">
         <li class="active col-lg row"><a href="#home" role="tab" data-toggle="tab" class="col rounded-top" id="s2tab1">Навыки Алисы</a></li>
         <li class="col-lg row"><a href="#profile" role="tab"  class="col rounded-top" data-toggle="tab" id="s2tab2">Telegram Бот </a></li>
         <li class="col-lg row"><a href="#messages" role="tab " class="col rounded-top" data-toggle="tab" id="s2tab3">Бот vk</a></li>
     </ul>
     <div class="tab-content">
-/*----------------- tab 1  ------------------*/
+//*----------------- tab 1  ------------------*/
         <div class="tab-pane active" id="home"><div id="section2" class="col-12 bg s2bg2">
 
                 <div class="container">
