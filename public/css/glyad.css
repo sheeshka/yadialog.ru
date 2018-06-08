@@ -58,16 +58,25 @@ h1 {
     background: #00aced;
     text-align: center;
     height: 45px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
 }
 #s2tab2 {
     background: lightpink;
     text-align: center;
     height: 45px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
 }
 #s2tab3 {
     background: yellowgreen;
     text-align: center;
     height: 45px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
 }
 #myTab {
     border-bottom: none;
