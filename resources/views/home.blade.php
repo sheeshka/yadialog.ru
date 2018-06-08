@@ -83,7 +83,7 @@
     </ul>
     <div class="tab-content">
 /*----------------- tab 1  ------------------*/
-        <div class="tab-pane active" id="home"><div id="section2" class="col-12 bg">
+        <div class="tab-pane active" id="home"><div id="section2" class="col-12 bg s2bg2">
 
                 <div class="container">
                     <div class="row align-items-center navbarr">
@@ -122,7 +122,7 @@
                 </div>
             </div></div>
 /*----------------- tab2  ------------------*/
-        <div class="tab-pane" id="profile"><div id="section2" class="col-12 bg">
+        <div class="tab-pane" id="profile"><div id="section2" class="col-12 bg s2bg2">
 
                 <div class="container">
                     <div class="row align-items-center navbarr">
@@ -161,7 +161,7 @@
                 </div>
             </div></div>
 /*----------------- tab3  ------------------*/
-        <div class="tab-pane" id="messages"><div id="section2" class="col-12 bg">
+        <div class="tab-pane" id="messages"><div id="section2" class="col-12 bg s2bg3">
 
                 <div class="container">
                     <div class="row align-items-center navbarr">

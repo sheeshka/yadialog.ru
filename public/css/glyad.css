@@ -42,9 +42,18 @@ h1 {
 /*-------------section2 -------------*/
 #section2 {
     min-height: 1250px;
-    background: #17c2a4;
     color: #ffffff;
 }
+.s2bg1 {
+    background: #00aced;
+}
+.s2bg2 {
+    background: lightpink;
+}
+.s2bg3 {
+    background: yellowgreen;
+}
+
 #s2tab1 {
     background: #00aced;
 }
