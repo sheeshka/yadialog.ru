@@ -38,7 +38,7 @@
 </head>
 <body>
 <div class="container-fluid">
-/*----------------- section 1  ------------------*/
+<!----------------- section 1  ------------------>
     <div id="section1" class="col-12 bg">
         <div class="container">
             <div class="row align-items-center navbarr">
@@ -206,7 +206,7 @@
         })
     </script>
 
-/*----------------- section 3  ------------------*/
+<!----------------- section 3  ------------------>
     <div id="section3" class="col-12 bg">
         <div class="container">
             <div class="row">
@@ -241,7 +241,7 @@
             </div>
         </div>
     </div>
-/*----------------- section 4  ------------------*/
+<!----------------- section 4  ------------------>
     <div id="section4" class="col-12 bg">
         <div class="container">
             <div class="row">
@@ -277,7 +277,7 @@
             </div>
         </div>
     </div>
-/*----------------- section 5  ------------------*/
+<!----------------- section 5  ------------------>
     <div id="section5" class="col-12 bg">
         <div class="container">
             <div class="row">
@@ -411,6 +411,7 @@
             </div>
         </div>
     </div>
+<!----------------- section 6  ------------------>
     <div id="section6" class="col-12 bg">
         <div class="container">
             <div class="row">
@@ -452,6 +453,7 @@
             </div>
         </div>
     </div>
+<!----------------- section 7  ------------------>
     <div id="section7" class="col-12 bg">
         <div class="container">
             <div class="row">
@@ -463,6 +465,7 @@
             </div>
         </div>
     </div>
+<!----------------- section 8  ------------------>
     <div id="section8" class="col-12 bg">
 
     </div>

@@ -56,12 +56,21 @@ h1 {
 
 #s2tab1 {
     background: #00aced;
+    text-align: center;
+    height: 45px;
 }
 #s2tab2 {
     background: lightpink;
+    text-align: center;
+    height: 45px;
 }
 #s2tab3 {
     background: yellowgreen;
+    text-align: center;
+    height: 45px;
+}
+#myTab {
+    border-bottom: none;
 }
 h2 {
     font-size: 3rem;
