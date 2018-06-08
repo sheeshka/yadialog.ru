@@ -82,8 +82,8 @@
         <li class="col-lg row"><a href="#messages" role="tab " class="col rounded-top" data-toggle="tab" id="s2tab3">Бот vk</a></li>
     </ul>
     <div class="tab-content">
-//*----------------- tab 1  ------------------*/
-        <div class="tab-pane active" id="home"><div id="section2" class="col-12 bg s2bg2">
+<!----------------- tab 1  ------------------>
+        <div class="tab-pane active" id="home"><div id="section2" class="col-12 bg s2bg1">
 
                 <div class="container">
                     <div class="row align-items-center navbarr">
@@ -121,7 +121,7 @@
                     </div>
                 </div>
             </div></div>
-/*----------------- tab2  ------------------*/
+<!----------------- tab 2  ------------------>
         <div class="tab-pane" id="profile"><div id="section2" class="col-12 bg s2bg2">
 
                 <div class="container">
@@ -160,7 +160,7 @@
                     </div>
                 </div>
             </div></div>
-/*----------------- tab3  ------------------*/
+<!----------------- tab 3  ------------------>
         <div class="tab-pane" id="messages"><div id="section2" class="col-12 bg s2bg3">
 
                 <div class="container">
