@@ -22,14 +22,12 @@
                     });
                 } catch(e) { }
             });
-
             var n = d.getElementsByTagName("script")[0],
                 s = d.createElement("script"),
                 f = function () { n.parentNode.insertBefore(s, n); };
             s.type = "text/javascript";
             s.async = true;
             s.src = "https://mc.yandex.ru/metrika/tag.js";
-
             if (w.opera == "[object Opera]") {
                 d.addEventListener("DOMContentLoaded", f, false);
             } else { f(); }
@@ -67,10 +65,10 @@
                 <div class="col-lg-4"></div>
                 <div class="col-lg-4">
                     <a href="/mindmap">
-                    <div id="botton">
-                        <p id="tbotton">Начать работу</p>
-                        <div id="lbotton"></div>
-                    </div>
+                        <div id="botton">
+                            <p id="tbotton">Начать работу</p>
+                            <div id="lbotton"></div>
+                        </div>
                     </a>
                 </div>
             </div>
