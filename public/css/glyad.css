@@ -45,6 +45,15 @@ h1 {
     background: #17c2a4;
     color: #ffffff;
 }
+#s2tab1 {
+    background: #00aced;
+}
+#s2tab2 {
+    background: lightpink;
+}
+#s2tab3 {
+    background: yellowgreen;
+}
 h2 {
     font-size: 3rem;
     font-weight: bold;
