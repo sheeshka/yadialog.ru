@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('', function () {
+    return view('home');
+});
+
 Route::get('/mindmap', function () {
     return view('mindmap');
 });
