@@ -1,12 +1,11 @@
-RewriteEngine on
-
-RewriteCond %{HTTP_HOST} ^(www.)?yadialog.ru$
-
-RewriteCond %{REQUEST_URI} !^/public/
-
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-
-RewriteRule ^(.*)$ /public/$1
-
-# This is a comment
+DirectoryIndex /public/index.php
+RewriteEngine On
+ 
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^(.+) $1 [L]
+ 
+RewriteCond %{DOCUMENT_ROOT}/public%{REQUEST_URI} -f
+RewriteRule ^(.+) /public/$1 [L]
+ 
+Options +SymLinksIfOwnerMatch
+RewriteRule ^(.*)$ /public/ [QSA,L]
