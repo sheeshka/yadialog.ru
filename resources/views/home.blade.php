@@ -46,11 +46,11 @@
                 <div id="logo" class="col-lg-5">YaDialog</div>
                 <div class="col-lg-7">
                     <ul class="nav">
-                        <li class="navmen"><a href="#">Пункт меню 1</a></li>
-                        <li class="navmen"><a href="#">Пункт меню 2</a></li>
-                        <li class="navmen"><a href="#">Пункт меню 3</a></li>
-                        <li class="navmen"><a href="#">Пункт меню 4</a></li>
-                        <li class="navmen"><a href="#">Пункт меню 5</a></li>
+                        <li class="navmen"><a href="/mindmap">Мозговая карта</a></li>
+                        <li class="navmen"><a href="/story">Статьи</a></li>
+                        <li class="navmen"><a href="/portfolio">Портфолио</a></li>
+                        <li class="navmen"><a href="/contacts">Контакты</a></li>
+                        <li class="navmen"><a href="#">Запасная</a></li>
                     </ul>
                 </div>
             </div>
