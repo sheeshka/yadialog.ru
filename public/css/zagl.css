@@ -127,7 +127,7 @@ p {
 .mailing-list input[type=text]{
     width:280px;
     height: 16px;
-    background: url(images/zagl/form-bg.png) no-repeat;
+    background: url(.../images/zagl/form-bg.png) no-repeat;
     border: none;
     color: #c9c9c9;
     font-size: 14px;
@@ -138,7 +138,7 @@ p {
 .mailing-list input[type=submit]{
     width:90px;
     height: 44px;
-    background: url(images/zagl/btn-subscribe.png) no-repeat;
+    background: url(/images/zagl/btn-subscribe.png) no-repeat;
     border: none;
     text-indent: -5000px;
     cursor: pointer;
