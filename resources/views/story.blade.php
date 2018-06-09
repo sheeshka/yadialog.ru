@@ -2,6 +2,7 @@
     <meta charset="utf-8">
     <title>Coming Soon to a Browser Near You</title>
     <link rel="stylesheet" type="text/css" href="css/zagl.css">
+    <link href="/images/favic/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="/images/favic/favicon.ico" type="image/x-icon">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
     <script type="text/javascript" src="javascripts/jquery.tipsy.js"></script>
