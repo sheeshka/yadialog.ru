@@ -17,7 +17,7 @@
 </head>
 <body>
 <div class="wrapper">
-    <a href="/"><img src="images/zagl/logo.png" alt="YourLogo" title="YourLogo"></a>
+    <a href="/"><img src="images/zagl/logo.png" alt="YaDialog.ru" title="YaDialog.ru"></a>
     <div class="hr"></div>
     <h1>Скоро во всех браузерах страны</h1>
     <p>К сожалению мы ещё не готовы, но вы можете увидеть нашу готовность ниже.</strong></p>
@@ -33,7 +33,7 @@
     <section class="mailing-list">
         <h2>Хотите оставить нам почту?</h2>
         <form>
-            <input type="text" value="your@email.com" onfocus="if(!this._haschanged){this.value=''};this._haschanged=true;">
+            <input type="text" value="sheeshka@ya.ru" onfocus="if(!this._haschanged){this.value=''};this._haschanged=true;">
             <input type="submit" value="Subscribe">
         </form>
     </section><div class="clear"></div>

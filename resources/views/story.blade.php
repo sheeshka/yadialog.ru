@@ -33,7 +33,7 @@
     <section class="mailing-list">
         <h2>Хотите оставить нам почту?</h2>
         <form>
-            <input type="text" value="your@email.com" onfocus="if(!this._haschanged){this.value=''};this._haschanged=true;">
+            <input type="text" value="sheeshka@ya.ru" onfocus="if(!this._haschanged){this.value=''};this._haschanged=true;">
             <input type="submit" value="Subscribe">
         </form>
     </section><div class="clear"></div>
