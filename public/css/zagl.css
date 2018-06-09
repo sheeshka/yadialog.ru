@@ -1,5 +1,5 @@
 body {
-    background: #232323 url(images/bg.png) repeat;
+    background: #232323 url(images/zagl/bg.png) repeat;
     margin: 0;
     padding: 0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -14,7 +14,7 @@ header, nav, article, section, aside, footer, address {
     min-height: 720px;
     margin: 0 auto;
     text-align: center;
-    background: url(images/bg-light.png) no-repeat;
+    background: url(images/zagl/bg-light.png) no-repeat;
     padding-top: 20px;
 }
 
@@ -62,7 +62,7 @@ p {
     border: none;
     width: 960px;
     height: 2px;
-    background: url(images/divider.png);
+    background: url(images/zagl/divider.png);
     margin: 10px 0;
 }
 
@@ -73,12 +73,12 @@ p {
 .progress {
     height: 110px;
     margin: 80px 0;
-    background: url(images/progress-container.png) no-repeat;
+    background: url(images/zagl/progress-container.png) no-repeat;
     position: relative;
 }
 
 .txt-launch-day-hat {
-    background: url(images/txt-launch-day-hat.png) no-repeat;
+    background: url(images/zagl/txt-launch-day-hat.png) no-repeat;
     width: 117px;
     height: 159px;
     position: absolute;
@@ -87,7 +87,7 @@ p {
 }
 
 .txt-launch-day {
-    background: url(images/txt-launch-day.png) no-repeat;
+    background: url(images/zagl/txt-launch-day.png) no-repeat;
     width: 112px;
     height: 110px;
     position: absolute;
@@ -97,7 +97,7 @@ p {
 
 .progress-bar {
     height: 43px;
-    background: #72dbf1 url(images/progress-bar.png) repeat-x;
+    background: #72dbf1 url(images/zagl/progress-bar.png) repeat-x;
     position: absolute;
     top:14px;
     left: 0px;
@@ -127,7 +127,7 @@ p {
 .mailing-list input[type=text]{
     width:280px;
     height: 16px;
-    background: url(images/form-bg.png) no-repeat;
+    background: url(images/zagl/form-bg.png) no-repeat;
     border: none;
     color: #c9c9c9;
     font-size: 14px;
@@ -138,7 +138,7 @@ p {
 .mailing-list input[type=submit]{
     width:90px;
     height: 44px;
-    background: url(images/btn-subscribe.png) no-repeat;
+    background: url(images/zagl/btn-subscribe.png) no-repeat;
     border: none;
     text-indent: -5000px;
     cursor: pointer;
@@ -158,7 +158,7 @@ p {
     outline: none;
 }
 
-.tipsy { margin-bottom: 25px; font-size: 18px; opacity: 0.8; filter: alpha(opacity=80); background-repeat: no-repeat;  background-image: url(images/tipsy.png); font-family: 'LeagueGothicRegular'; text-transform: uppercase;  }
+.tipsy { margin-bottom: 25px; font-size: 18px; opacity: 0.8; filter: alpha(opacity=80); background-repeat: no-repeat;  background-image: url(images/zagl/tipsy.png); font-family: 'LeagueGothicRegular'; text-transform: uppercase;  }
 .tipsy-inner { padding: 10px 20px; background-color: black; color: white; max-width: 400px; text-align: right; -webkit-box-shadow: 0 20px 15px rgba(0,0,0,0.5); -moz-box-shadow: 0 20px 15px rgba(0,0,0,0.5);   }
 .tipsy-inner { -moz-border-radius:5px; -webkit-border-radius:5px; }
 .tipsy-north { background-position: top center; }
