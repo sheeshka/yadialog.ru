@@ -1,5 +1,12 @@
 <?php
 
+namespace App\Http\BlogController;
+public function sitemap() {
+    $posts = Post::get();
+    return view('sitemap')->with(compact('posts'));
+}
+
+
 {{ Request::header('Content-Type : text/xml') }}
 <?php echo '<?xml version="1.0" encoding="UTF-8"?>';?>
 
