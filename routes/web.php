@@ -38,3 +38,4 @@ Route::get('/story', function () {
 Route::get('/portfolio', function () {
     return view('portfolio');
 });
+Route::get('sitemap.xml', 'BlogController@sitemap');

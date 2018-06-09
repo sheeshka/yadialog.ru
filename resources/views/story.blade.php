@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="css/zagl.css">
     <link href="/images/favic/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="/images/favic/favicon.ico" type="image/x-icon">
+    <link href='{{ url('sitemap.xml') }}' rel='alternate' title='Sitemap' type='application/rss+xml'/>
 </head>
 <body>
 <div class="wrapper">
