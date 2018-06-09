@@ -17,7 +17,7 @@
 </head>
 <body>
 <div class="wrapper">
-    <img src="images/logo.png" alt="YourLogo" title="YourLogo">
+    <img src="images/zagl/logo.png" alt="YourLogo" title="YourLogo">
     <div class="hr"></div>
     <h1>Coming Soon to a Browser Near You</h1>
     <p>Unfortunately, we’re not quite ready yet. <strong> But, you can see our progress below:</strong></p>
