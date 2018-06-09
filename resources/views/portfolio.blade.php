@@ -17,7 +17,7 @@
 </head>
 <body>
 <div class="wrapper">
-    <img src="images/zagl/logo.png" alt="YourLogo" title="YourLogo">
+    <a href="/"><img src="images/zagl/logo.png" alt="YourLogo" title="YourLogo"></a>
     <div class="hr"></div>
     <h1>Скоро во всех браузерах страны</h1>
     <p>К сожалению мы ещё не готовы, но вы можете увидеть нашу готовность ниже.</strong></p>
