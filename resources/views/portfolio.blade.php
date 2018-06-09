@@ -1,4 +1,6 @@
-<html><head>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
     <meta charset="utf-8">
     <title>Coming Soon to a Browser Near You</title>
     <link rel="stylesheet" type="text/css" href="css/zagl.css">
