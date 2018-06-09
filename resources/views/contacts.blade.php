@@ -19,8 +19,8 @@
 <div class="wrapper">
     <img src="images/zagl/logo.png" alt="YourLogo" title="YourLogo">
     <div class="hr"></div>
-    <h1>Coming Soon to a Browser Near You</h1>
-    <p>Unfortunately, we’re not quite ready yet. <strong> But, you can see our progress below:</strong></p>
+    <h1>Скоро во всех браузерах страны</h1>
+    <p>К сожалению мы ещё не готовы, но вы можете увидеть нашу готовность ниже.</strong></p>
 
     <section class="progress">
         <div class="progress-bar-container" id="tipsy" title="87% Complete"> <!-- Edit this title for the tooltip pop up -->
@@ -31,7 +31,7 @@
 
     <div class="hr"></div>
     <section class="mailing-list">
-        <h2>Want to be the first to know when we're ready?</h2>
+        <h2>Хотите оставить нам почту?</h2>
         <form>
             <input type="text" value="your@email.com" onfocus="if(!this._haschanged){this.value=''};this._haschanged=true;">
             <input type="submit" value="Subscribe">
