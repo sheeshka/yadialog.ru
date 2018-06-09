@@ -4,17 +4,6 @@
     <link rel="stylesheet" type="text/css" href="css/zagl.css">
     <link href="/images/favic/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="/images/favic/favicon.ico" type="image/x-icon">
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/jquery.tipsy.js"></script>
-    <script type="text/javascript">
-        $(function() {
-            $('#tipsy').tipsy({fade: true, gravity: 's'});
-        });
-    </script>
-    <!--[if IE]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
 </head>
 <body>
 <div class="wrapper">
@@ -34,7 +23,7 @@
     <section class="mailing-list">
         <h2>Хотите оставить нам почту?</h2>
         <form>
-            <input type="text" value="sheeshka@ya.ru" onfocus="if(!this._haschanged){this.value=''};this._haschanged=true;">
+            <input type="text" value="sheeshka@ya.ru">
             <input type="submit" value="Subscribe">
         </form>
     </section><div class="clear"></div>
