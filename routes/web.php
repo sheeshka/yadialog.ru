@@ -38,9 +38,3 @@ Route::get('/story', function () {
 Route::get('/portfolio', function () {
     return view('portfolio');
 });
-Route::get('sitemap.xml', 'BlogController@sitemap');
-
-public function sitemap() {
-    $posts = Post::get();
-    return view('sitemap')->with(compact('posts'));
-}
